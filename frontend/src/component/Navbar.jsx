@@ -16,7 +16,7 @@ const Navbar = () => {
     <>
       <header className="bg-white shadow">
         <div className="container mx-auto px-48 py-4 flex justify-between items-center">
-          <div className="text-3xl font-bold">
+          <div className="text-2xl font-bold">
             <span style={{ color: "#0077B5", backgroundColor: "#FFFFFF" }}>
               Linked
             </span>
@@ -24,8 +24,11 @@ const Navbar = () => {
               style={{
                 color: "#FFFFFF",
                 backgroundColor: "#0077B5",
-                padding: "0 3px",
-                lineHeight: "1",
+                padding: "0px 1px", // Adjusted padding
+                lineHeight: "1", // Adjusted line-height
+                border: "1px solid #0077B5",
+                borderRadius: "3px",
+                display: "inline-block", // Ensures better height control
               }}
             >
               in
