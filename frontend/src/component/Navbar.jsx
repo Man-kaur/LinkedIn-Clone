@@ -55,10 +55,10 @@ const Navbar = () => {
               <FontAwesomeIcon icon={faMobileAlt} /> Get the app
             </a>
             <span className="border-l-2 border-gray-200 h-6 mx-2"></span>
-            <button className="text-lg bg-white text-gray-800 px-4 py-2 font-semibold rounded-full hover:bg-gray-100">
+            <button className="text-md bg-white text-gray-800 px-4 py-2 font-semibold rounded-full hover:bg-gray-100">
               Join Now
             </button>
-            <button className="text-lg text-blue-600 font-semibold px-4 py-2 rounded-full border border-blue-700 hover:bg-blue-50">
+            <button className="text-md text-blue-600 font-semibold px-4 py-2 rounded-full border border-blue-700 hover:bg-blue-50">
               Sign In
             </button>
           </nav>
